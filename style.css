@@ -46,6 +46,13 @@ body {
 	clear: both;
 	font-size: .64em;
 }
+#footer .row {
+  line-height: 1em;
+  clear:both;
+}
+#footer .row div {
+  line-height: 1em;
+}
 #footer .copyright {
   float: left;
   text-align: left;
@@ -53,6 +60,8 @@ body {
 #footer .credits {
   float: right;
   text-align:right;
+}
+#footer .logo_credits {
 }
 #entries {
 	width: 528px;
