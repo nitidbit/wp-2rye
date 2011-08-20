@@ -9,7 +9,8 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
- <h1 style="display:inline; font-size:3em;"><a href="<?php the_permalink(); ?>" style="color:#444444;"><?php the_title(); ?></a></h1><div style="margin-top:-2px;"><small><?php the_time('m.d.y'); ?> <b>|</b> <?php comments_number('Comment?', '1 Comment', '% Comments' ) ?> </small></div><br/>
+ <h1 class="post-title" style="display:inline;"><a href="<?php the_permalink(); ?>" ><?php the_title(); ?></a></h1>
+<div class="time-comment"><small><?php the_time('m.d.y'); ?> <b>|</b> <?php comments_number('Comment?', '1 Comment', '% Comments' ) ?> </small></div>
 
 <div class="post">
 	<?php the_content(); ?>

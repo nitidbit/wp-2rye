@@ -12,7 +12,7 @@
 <?php bloginfo('name'); ?>: the blog by 2RYE.  We're a small consulting company specializing in bespoke web applications.  We use agile processes and develop primarily using Ruby.  We'll use this blog to share our findings on methodologies, coding strategies, unsticking ourselves from other software issues, and general ramblings about what we do.
 
 		
-<h3>search</h3><br/>
+<h3>search</h3>
 	<?php include(TEMPLATEPATH . '/searchform.php'); ?>
 
 <?php if (function_exists('akpc_most_popular')) { ?>
