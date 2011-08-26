@@ -44,7 +44,7 @@ You can put an ad here if you like. Just edit <b>sidebar.php</b>. For the latest
 
 <?php if (function_exists('wp_tag_cloud') ) : ?>
 <h3>Tag Cloud</h3>
-<?php wp_tag_cloud('smallest=8&largest=36&'); ?>
+<?php wp_tag_cloud('smallest=7&largest=22&'); ?>
 <?php endif; ?>
 
  
@@ -92,12 +92,6 @@ You can put an ad here if you like. Just edit <b>sidebar.php</b>. For the latest
 		<ul>
     <?php wp_get_archives('type=monthly&show_post_count=1'); ?>
   	</ul>	
-
- <h3>Categories</h3>
-	 <ul>
-	<?php wp_list_categories('show_count=1&title_li='); ?>
-	</ul>
-
 
 				
 <h3>feeds</h3>

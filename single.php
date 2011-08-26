@@ -5,8 +5,7 @@
 <?php previous_post_link('&laquo; %link','%title') ?><br/>
 <?php next_post_link('&raquo; %link','%title') ?>
 
-<h3><?php the_category(', ') ?></h3>
-
+<h3></h3>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
  <h1 class="post-title" style="display:inline;"><a href="<?php the_permalink(); ?>" ><?php the_title(); ?></a></h1>

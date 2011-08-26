@@ -4,14 +4,11 @@
 
 <?php if (have_posts()) :  while (have_posts()) : the_post(); ?>
 <h3>
-   <div><?php the_category(', ') ?></div></h3><h1 style="display:inline;"><a href="<?php the_permalink(); ?>" style="color:#444444;"><?php the_title(); ?></a></h1><div style="margin-top:-2px;"><small><?php the_time('m.d.y'); ?> <b>|</b> <a href="<?php the_permalink(); ?>">Permalink</a> <b>|</b> <?php comments_popup_link('Comment?', '1 Comment', '% Comments' ) ?> </small></div>
+   <div><?php the_tags() ?></div></h3><h1 style="display:inline;"><a href="<?php the_permalink(); ?>" style="color:#444444;"><?php the_title(); ?></a></h1><div style="margin-top:-2px;"><small><?php the_time('m.d.y'); ?> <b>|</b> <a href="<?php the_permalink(); ?>">Permalink</a> <b>|</b> <?php comments_popup_link('Comment?', '1 Comment', '% Comments' ) ?> </small></div>
  
 <div class="post">
 <?php the_excerpt(); ?>
 
-<?php if (function_exists('the_tags') ) : ?>
-<?php the_tags(); ?>
-<?php endif; ?>
 
 </div><!--end posts-->
 
