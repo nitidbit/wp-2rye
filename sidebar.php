@@ -1,6 +1,6 @@
 <div id="sidebar">
 
-<a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/header.jpg" width="336" alt="<?php bloginfo('name'); ?>" /></a><br/>
+<a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/header.png" width="336" alt="<?php bloginfo('name'); ?>" /></a><br/>
 
 <h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
 
