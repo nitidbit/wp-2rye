@@ -274,4 +274,7 @@ small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockqu
   height: 100px;
 }
 
+.codecolorer-container {
+  width: 525px;
+}
 /* End Comments */
