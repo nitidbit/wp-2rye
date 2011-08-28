@@ -95,8 +95,8 @@ a:link img {
 }
 
 ul {
-  list-style: none;
-  margin-left: 0px;
+  list-style: circle outside;
+  margin-left: 1.2em;
   padding-left: 0px;
   margin-top: 0px;
 }
