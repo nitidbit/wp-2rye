@@ -140,9 +140,7 @@ h1.post-title {
   color:#444;
 }
 #entries .time-comment {
-  float: right;
-  text-align:right;
-  margin-top: 8px;
+  margin-top: 12px;
   vertical-align: bottom;
 }
 
