@@ -1,22 +1,27 @@
 <?php get_header(); ?>
 <div id="container">
-<div id="entries">
+<div id="entries" class='single'>
 
-<?php previous_post_link('&laquo; %link','%title') ?><br/>
-<?php next_post_link('&raquo; %link','%title') ?>
+<div class="previous_post"><?php previous_post_link('&laquo; %link','%title') ?></div>
+<div class="next_post"><?php next_post_link('&raquo; %link','%title') ?></div>
 
-<h3></h3>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
- <h1 class="post-title" style="display:inline;"><a href="<?php the_permalink(); ?>" ><?php the_title(); ?></a></h1>
-<div class="time-comment"><small><?php the_time('m.d.y'); ?> <b>|</b> <?php comments_number('Comment?', '1 Comment', '% Comments' ) ?> </small></div>
+ <div class='title-bar'>
+   <h1 class="post-title"><a href="<?php the_permalink(); ?>" ><?php the_title(); ?></a></h1>
+   <div class="time-comment">
+     <span class="the_time"><?php the_time('m.d.y'); ?></span>
+     |
+     <span class="add_comment"><?php comments_number('Comment?', '1 Comment', '% Comments' ) ?></span>
+  </div>
+ </div>
 
 <div class="post">
 	<?php the_content(); ?>
-
+<div class='tags'>
 <?php if (function_exists('the_tags') ) : ?>
 <?php the_tags(); ?>
 <?php endif; ?>
+</div>
 
 </div><!--end posts-->
 
@@ -43,8 +48,8 @@
 
 <?php comments_template(); ?><br/>
 			
-<?php previous_post_link('&laquo; %link','%title') ?><br/>
-<?php next_post_link('&raquo; %link','%title') ?><br/>
+<div class="previous_post"><?php previous_post_link('&laquo; %link','%title') ?></div>
+<div class="next_post"><?php next_post_link('&raquo; %link','%title') ?></div>
 </div><!--end entries-->	
 <?php get_sidebar(); ?>
 </div><!-- end container -->

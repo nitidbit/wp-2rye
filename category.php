@@ -2,8 +2,8 @@
 
   <div id="container">
     <div id="entries">
-      <?php next_posts_link('&laquo; Previous Entries') ?><br/>
-      <?php previous_posts_link('&raquo; Next Entries') ?>
+<div class="next_post"><?php next_post_link('&raquo; %link','%title') ?></div>
+<div class="previous_post"><?php previous_post_link('&laquo; %link','%title') ?></div>
 
       <h3 class="category_header">Category</h3>
 
@@ -28,7 +28,10 @@
       </ul><?php else : ?>
 
       <h3>Not Found</h3><?php endif; ?><?php next_posts_link('&laquo; Previous Entries') ?><br/>
+<div class="previous_post">
       <?php previous_posts_link('&raquo; Next Entries') ?>
+</div>
+
     </div><!--end entries-->
 <?php get_sidebar(); ?>
 </div><!-- end container -->

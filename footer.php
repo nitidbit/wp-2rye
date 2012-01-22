@@ -9,8 +9,10 @@
      </div>
    </div>
    <div class="logo_credits row">
+<!--
+
                          Logo design: <a href="http://blog.carbonfive.com/author/dhendee/">David Hendee, Director of Design at Carbon Five</a>.
-                      
+-->                     
                       
                       <!-- <?php echo get_num_queries(); ?> queries. <?php timer_stop(1); ?> seconds. -->
 </div><!-- end footer -->

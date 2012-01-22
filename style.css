@@ -10,11 +10,17 @@
 
 body {
   background-color: #fff;
-  font-family: Arial, Helvetica, Geneva, sans-serif;
+  font-family: 'Actor', Arial, Helvetica, Geneva, sans-serif;
   padding: 20px;
   font-size: 14px;
   line-height: 20px;
   color: #444444;
+}
+a:hover {
+  color: #00c;
+}
+h1,h2,h3,h4,h5 {
+  font-family: 'Questrial', sans-serif;
 }
 
 #container {
@@ -28,6 +34,7 @@ body {
   font-size: 11px;
   line-height: 15px;
   padding: 0 10px 25px 0;
+  margin-top: 48px;
 }
 
 /**
@@ -72,6 +79,69 @@ float: right;
 #entries {
   width: 528px;
   float: right;
+}
+#entries .title-bar {
+    position: relative;
+}
+#entries .previous_post, #entries .next_post {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+#entries .previous_post a, #entries .next_post a {
+  font-weight: normal;
+}
+
+
+#entries .previous_post {
+  margin-top:17px;
+}
+#entries .tags_ctrls {
+  height: 20px;
+}
+#entries .tags {
+  float: left;
+}
+#entries .ctrls {
+  float: right;
+}
+
+#entries .tags, #entries .ctrls {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+#entries .tags a,  #entries .ctrls a {
+  font-weight:normal;
+}
+#entries .post_container {
+  margin-bottom: 20px;
+}
+#entries .time-comment,
+#entries .ctrls {
+  font-size: 10px;
+}
+#entries .time-comment span,
+#entries .ctrls span {
+  padding: 0 5px;
+}
+#entries .time-comment {
+  text-transform: uppercase;
+  float: right;
+  text-align:right;
+  margin-top:5px;
+}
+
+#entries.single .title-bar .time-comment {
+  float: none;
+  position: absolute;
+  right: 0;
+  top: 8px;
+}
+#entries h1 {
+  border-bottom: 1px solid gray;
+  padding-top: 6px;
+}
+#entries h1:last-child {
+  border: 0;
 }
 
 .post {
@@ -138,10 +208,7 @@ h1.post-title {
   font-size: 24px;
   line-height: 28px;
   color:#444;
-}
-#entries .time-comment {
-  margin-top: 12px;
-  vertical-align: bottom;
+  padding-top:0;
 }
 
 .title {
@@ -164,20 +231,6 @@ h3 {
 #sidebar h3 {
   margin-top: 20px;
   margin-bottom: 5px;
-}
-
-#entries h3 {
-  text-align: right;
-  margin-bottom: 14px;
-}
-#entries h3.category_header {
-  text-align: left;
-  margin-left: 4px;
-}
-
-#entries h3 > div {
-  marigin-left: 50%;
-  font-size: 10px;
 }
 
 .post h3 {
@@ -276,3 +329,47 @@ small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockqu
   width: 525px;
 }
 /* End Comments */
+
+.words, .rye {
+  font-family: 'Questrial', sans-serif;
+  background-color: transparent;
+  font-size: 36px;
+  color: #111;
+}
+.title .words { 
+  position: absolute;
+  top: 38px;
+  left: 60px;
+  white-space:nowrap;
+}
+ .rye {
+  margin: auto;
+  font-family: verdana, sans-serif;
+  font-weight: bold;
+  float: right;
+  font-size:100px;
+  letter-spacing:-8px;
+}
+.logo {
+  height: 150px;
+}
+.rye .two {
+  font-size: 67px;
+}
+.logo {
+  position: relative;
+  padding-right: 50px;
+  padding-top: -20px;
+  padding-bottom: -40px;
+  margin-left: -40px;
+
+  height: 100px;
+}
+.logo .black {
+  position: absolute;
+  bottom: 10px;
+  left: 40px;
+  background-color: black;
+  height: 45px;
+  width: 335px;
+}
