@@ -36,6 +36,19 @@ h1,h2,h3,h4,h5 {
   padding: 0 10px 25px 0;
   margin-top: 48px;
 }
+#sidebar ul {
+  list-style: none;
+  text-transform: uppercase;
+}
+#sidebar ul a{
+  font-weight: normal;
+}
+#sidebar .tags {
+  text-transform: uppercase;
+}
+#sidebar .tags a{
+  font-weight: normal;
+}
 
 /**
    #sidebarleft {
@@ -114,6 +127,13 @@ float: right;
 }
 #entries .post_container {
   margin-bottom: 20px;
+}
+.clearfix:after { 
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 #entries .time-comment,
 #entries .ctrls {

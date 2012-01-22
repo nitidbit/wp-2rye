@@ -3,7 +3,7 @@
 <div id="entries">
 
 <?php if (have_posts()) :  while (have_posts()) : the_post(); ?>
-<div class="post_container">
+<div class="post_container clearfix">
    <h1><a href="<?php the_permalink(); ?>" style="color:#444444;"><?php the_title(); ?></a></h1>
    <div class='tags_ctrls'>
      <div class='tags'><?php the_tags() ?></div>

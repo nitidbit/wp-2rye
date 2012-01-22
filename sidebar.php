@@ -45,11 +45,14 @@ You can put an ad here if you like. Just edit <b>sidebar.php</b>. For the latest
 <?php endif; ?>
 
 
+<div class='tag-cloud'>
 <?php if (function_exists('wp_tag_cloud') ) : ?>
-<h3>Tag Cloud</h3>
-<?php wp_tag_cloud('smallest=7&largest=22&'); ?>
+  <h3>Tag Cloud</h3>
+  <div class='tags'>
+   <?php wp_tag_cloud('smallest=7&largest=22&'); ?>
+  </div>
 <?php endif; ?>
-
+</div>
  
 <?php 
    if (0) : 
