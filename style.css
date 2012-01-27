@@ -424,3 +424,20 @@ small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockqu
   border: 1px solid #aaa;
   padding: 5px
 }
+.search_results h3 {
+  border: 0;
+  margin-bottom: 0;
+}
+.search_results ul { 
+  list-style:none;
+  margin-left: 0;
+}
+.search_results .results_content {
+  border: 1px solid #aaa;
+  padding: 20px;
+  margin: 20px 0;
+}
+#entries.search_results h1 {
+  border: 0;
+}
+  
