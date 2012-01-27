@@ -238,7 +238,10 @@ h1.post-title {
   color:#444;
   padding-top:0;
 }
-
+#entries h1.post-title a {
+  display: block;
+  width: 410px;
+}
 .title {
   border-bottom: 1px solid silver;
 }
