@@ -5,7 +5,9 @@
      <div class='black'>distillations</div>
    </div>
 </a>
+<!--
 <h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
+-->
 
 <?php if ( !function_exists('dynamic_sidebar')
         || !dynamic_sidebar(1) ) : ?>

@@ -44,7 +44,11 @@ h1,h2,h3,h4,h5 {
   font-weight: normal;
 }
 #sidebar .tags {
-  text-transform: uppercase;
+  text-transform: lowercase;
+  
+}
+#sidebar .tags a {
+    color: #999;
 }
 #sidebar .tags a{
   font-weight: normal;
@@ -113,8 +117,11 @@ float: right;
 }
 #entries .tags {
   float: left;
+  text-align: left;
+  color: #999;
 }
 #entries .ctrls {
+  text-align:right;
   float: right;
 }
 
@@ -124,6 +131,7 @@ float: right;
 }
 #entries .tags a,  #entries .ctrls a {
   font-weight:normal;
+  color: #999;
 }
 #entries .post_container {
   margin-bottom: 20px;
@@ -250,7 +258,7 @@ h3 {
 
 #sidebar h3 {
   margin-top: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .post h3 {
@@ -403,4 +411,13 @@ small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockqu
   color: #ccc;
   line-height: 45px;
   font-size: 32px;
+}
+
+.widget_search {
+  margin-top: 10px;
+}
+
+.widget_search input[type=text] {
+  border: 1px solid #aaa;
+  padding: 5px
 }
