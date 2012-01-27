@@ -12,9 +12,15 @@
         <li>
  
           <div class="results_content">
-           <h1 style="display:inline;"><a href="<?php the_permalink(); ?>" style="color:#444444;"><?php the_title(); ?></a></h1><div style="margin-top:-2px;"><small><?php the_time('m.d.y'); ?> <b>|</b> <a href="<?php the_permalink(); ?>">Permalink</a> <b>|</b> <?php comments_popup_link('Comment?', '1 Comment', '% Comments' ) ?> </small></div>
-
-            <div style="margin-top: -1em;">
+           <h1 style="display:inline;"><a href="<?php the_permalink(); ?>" ><?php the_title(); ?></a></h1>
+   <div class='ctrls'>
+   <span class='the_time'><?php the_time('m.d.y'); ?></span>
+| 
+   <span class='permalink'><a href="<?php the_permalink(); ?>">Permalink</a></span>
+   | 
+   <span class='add_comment'><?php comments_popup_link('Comment?', '1 Comment', '% Comments' ) ?></span>
+   </div>
+            <div class='post excerpt'>
               <?php the_excerpt(); ?>
             </div>
           </div>

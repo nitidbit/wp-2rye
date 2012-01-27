@@ -4,7 +4,7 @@
 
 <?php if (have_posts()) :  while (have_posts()) : the_post(); ?>
 <div class="post_container clearfix">
-   <h1><a href="<?php the_permalink(); ?>" style="color:#444444;"><?php the_title(); ?></a></h1>
+   <h1><a href="<?php the_permalink(); ?>" ><?php the_title(); ?></a></h1>
    <div class='ctrls'>
    <span class='the_time'><?php the_time('m.d.y'); ?></span>
 | 
@@ -12,7 +12,7 @@
    | 
    <span class='add_comment'><?php comments_popup_link('Comment?', '1 Comment', '% Comments' ) ?></span>
    </div>
-   <div class="post">
+   <div class="post excerpt">
    <?php the_excerpt(); ?>
    </div><!--end posts-->
    <div class='tags'><?php the_tags() ?></div>
