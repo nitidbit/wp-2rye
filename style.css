@@ -445,4 +445,7 @@ small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockqu
 #sidebar ul.tweets {
   text-transform: none;
 }
-  
+#sidebar ul.tweets li{
+  text-transform: none;
+  line-height: 2em;
+}
