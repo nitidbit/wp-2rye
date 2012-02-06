@@ -442,7 +442,7 @@ small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockqu
   border: 0;
 }
   
-#sidebar .tweets ul {
+#sidebar ul.tweets {
   text-transform: none;
 }
   
