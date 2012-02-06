@@ -279,7 +279,7 @@ h3 {
 }
 
 blockquote {
-  background-color: #f3f3f3;
+  background-color: #fefefe;
   padding: 10px;
   margin: 15px 0;
 }
@@ -296,12 +296,12 @@ blockquote {
 .alt {
   margin: 0;
   padding: 10px;
-  background: #f3f3f3;
+  background: #fefefe;
 }
 
 .commentlist {
   margin-top: 0px;
-
+  list-style: none;
 }
 
 .commentlist li {
