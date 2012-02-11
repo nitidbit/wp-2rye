@@ -441,14 +441,17 @@ small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockqu
   text-transform: none;
   margin: 8px 0;
 }
-
+.commentlist {
+  margin: 0;
+  padding: 15px;
+  background-color: #fcfcfc;
+}
 .commentlist li {
   border-bottom: 1px dashed #ccc;
 }
 .commentlist li.alt {
   margin: 0
   padding: 10px 0;
-  color: #999;
 }
 
  
