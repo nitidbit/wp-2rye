@@ -291,12 +291,6 @@ blockquote {
   border-bottom: 1px solid silver;
 }
 
-.alt {
-  margin: 0;
-  padding: 10px;
-  background: #fefefe;
-}
-
 .commentlist {
   margin-top: 0px;
   list-style: none;
@@ -447,3 +441,14 @@ small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockqu
   text-transform: none;
   margin: 8px 0;
 }
+
+.commentlist li {
+  border-bottom: 1px dashed #ccc;
+}
+.commentlist li.alt {
+  margin: 0
+  padding: 10px 0;
+  color: #999;
+}
+
+ 
