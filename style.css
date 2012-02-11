@@ -9,18 +9,17 @@
      */
 
 body {
-  background-color: #efefef;
-  font-family: 'Actor', Arial, Helvetica, Geneva, sans-serif;
+  font-family: Helvetica, Arial, Helvetica, Geneva, sans-serif;
   padding: 20px;
   font-size: 14px;
   line-height: 20px;
   color: #444444;
 }
 a:hover {
-  color: #00c;
+  color: #009;
 }
 h1,h2,h3,h4,h5 {
-  font-family: 'Questrial', sans-serif;
+  font-family: Helvetica, Arial, Helvetica, Geneva, sans-serif;
 }
 
 #container {
@@ -178,7 +177,7 @@ float: right;
 }
 
 a {
-  color: #230a16;
+  color: #404;
   text-decoration: none;
   font-weight: bold;
 
@@ -230,7 +229,6 @@ img.frame {
 h1 {
   font-size: 20px;
   line-height: 24px;
-  text-transform: uppercase;
   padding-top: 10px;
 }
 h1.post-title {
