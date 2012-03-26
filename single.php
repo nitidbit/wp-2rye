@@ -6,12 +6,12 @@
 <div class="next_post"><?php next_post_link('&raquo; %link','%title') ?></div>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
- <div class='title-bar'>
+ <div class='title-bar header'>
    <h1 class="post-title"><a href="<?php the_permalink(); ?>" ><?php the_title(); ?></a></h1>
-   <div class="time-comment">
-     <span class="the_time"><?php the_time('m.d.y'); ?></span>
-     |
-     <span class="add_comment"><?php comments_number('Comment?', '1 Comment', '% Comments' ) ?></span>
+   <div class="time-comment extras">
+     <div class='the_time'><?php the_time('m.d.y'); ?></div>
+     <div class='the_author'>by <span class="author_name"><?php the_author_link(); ?></span></div>
+     <div class="add_comment"><?php comments_popup_link('Comment?', '1 Comment', '% Comments' ) ?></div>
   </div>
  </div>
 
