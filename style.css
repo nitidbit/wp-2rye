@@ -145,6 +145,7 @@ float: right;
   position: relative;
   margin-top: 0px;
   border-bottom: 1px solid gray;
+  
 }
 #entries .header .extras {
   font-size:10px;
@@ -167,6 +168,7 @@ float: right;
   margin-top: 0;
   padding-top: 0;
   border-bottom: 0;
+  width: 427px;
 }
 .clearfix:after { 
   content: " ";
@@ -260,7 +262,6 @@ h1.post-title {
 }
 #entries h1.post-title a {
   display: block;
-  width: 410px;
 }
 .title {
   border-bottom: 1px solid silver;
