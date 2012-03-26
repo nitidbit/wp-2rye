@@ -148,6 +148,7 @@ float: right;
   
 }
 #entries .header .extras {
+  text-align: right;
   font-size:10px;
   position: absolute;
   top: 0;
@@ -181,7 +182,6 @@ float: right;
 #entries .ctrls {
   font-size: 10px;
 }
-#entries .time-comment span,
 #entries .ctrls span {
   padding: 0 5px;
 }
